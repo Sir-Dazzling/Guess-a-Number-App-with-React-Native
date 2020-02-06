@@ -37,7 +37,8 @@ export default function App() {
     setUserNumber(null);
   };
 
-  const startGameHandler = selectedNumber => {
+  const startGameHandler = selectedNumber => 
+  {
     setUserNumber(selectedNumber);
   };
 
@@ -71,7 +72,8 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  screen: {
+  screen: 
+  {
     flex: 1
   }
 });
